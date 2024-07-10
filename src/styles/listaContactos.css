@@ -1,0 +1,55 @@
+.filas {
+    height: 125px; 
+    display: flex;
+    padding: 0;
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+.espacioFoto {
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 87%; 
+    width: 120px; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.espacioDatos {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 0;
+    height: 100%; 
+    margin-left: 100px; 
+    flex-grow: 1; 
+    text-align: start;
+}
+
+h4 {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+
+.list-group-item {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10px; 
+    font-size: 30px;
+}
+
+
